@@ -40,7 +40,7 @@ from pyspedas import mms_hpca_calc_anodes
 #        'mms1_hpca_oplus_number_density'])
 
 # Opening MMS Master list/ For Loop/ Initializing\
-mms_hpca_calc_anodes(fov=[0, 360], probe='1')
+mms_hpca_calc_anodes(fov=[0, 360], probe='2')
 with open('MMS_EMIC_wave_events_2015-2020_v6.csv') as file:
     reader = csv.reader(file)
     count = 0
